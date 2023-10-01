@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
  
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="alpha" />
+  <project path="device/realme/RMX1901" name="ij-israfil/device_realme_RMX1901" remote="ghub" revision="aw" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="ij-israfil/vendor_realme_RMX1901" remote="ghub" revision="13" />
@@ -13,7 +13,7 @@
  <project path="kernel/realme/RMX1901" name="ij-israfil/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
 
 <!-- Framework Alpha -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="ij-israfil/frameworks_base_alpha" remote="ghub" revision="alpha-13" />
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base" name="ij-israfil/frameworks_base_aw" remote="ghub" revision="triton" />
  
 </manifest>
