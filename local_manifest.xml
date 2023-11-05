@@ -14,6 +14,6 @@
 
 <!-- Framework Derp -->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="ij-israfil/frameworks_base_derp" remote="ghub" revision="13" />
+ <project path="frameworks/base" name="israfilbd/frameworks_base_derp" remote="ghub" revision="13" />
 
 </manifest>
