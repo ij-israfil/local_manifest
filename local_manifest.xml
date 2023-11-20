@@ -7,7 +7,7 @@
                 fetch="https://github.com/ij-israfil" />
  
 <!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="me" revision="superior" />
+  <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="me" revision="crdroid-13" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="me" revision="13-U" />
@@ -15,9 +15,9 @@
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="kernel_realme_RMX1901" remote="me" revision="dev.337" />
 
-<!-- Framework Superior -->
- <remove-project name="android_frameworks_base" />
- <project path="frameworks/base" name="israfilbd/frameworks_base_superior" remote="ghub" revision="thirteen" />
+<!-- Framework Crdroid-13 -->
+ <remove-project name="crdroidandroid/android_frameworks_base" />
+ <project path="frameworks/base" name="israfilbd/frameworks_base_crdroid" remote="ghub" revision="13.0" />
 
 <!-- Viper4android -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me" revision="v4a_2.7.1" />
