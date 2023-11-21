@@ -18,7 +18,11 @@
 <!-- Framework Crdroid-13 -->
  <remove-project name="crdroidandroid/android_frameworks_base" />
  <project path="frameworks/base" name="israfilbd/frameworks_base_crdroid" remote="ghub" revision="13.0" />
-
+	
+<!-- crdroid Vendor addons -->
+ <remove-project name="crdroidandroid/android_vendor_addons" />
+ <project path="vendor/addons" name="israfilbd/android_vendor_addons" remote="ghub" revision="13.0" />
+	
 <!-- Viper4android -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me" revision="v4a_2.7.1" />
 	
